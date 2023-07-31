@@ -30,9 +30,9 @@ dev_dependencies:
 flutter:
 
   # To add assets to your package, add an assets section, like this:
-  assets:
-    - assets/icons/
-    - assets/images/
+  # assets:
+  #   - assets/icons/
+  #   - assets/images/
   #   - images/a_dot_ham.jpeg
   #
   # For details regarding assets in packages, see
@@ -46,10 +46,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  fonts:
-    - family: Assistant
-      fonts:
-        - asset: assets/fonts/Assistant-Regular.ttf
+  # fonts:
+    # - family: Assistant
+    #   fonts:
+    #     - asset: assets/fonts/Assistant-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

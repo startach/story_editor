@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../styles/my_icons.dart';
 import '../widgets/my_buttons.dart';
-import 'share_screen.dart';
+// import 'share_screen.dart';
 
 class PopUpShare extends StatelessWidget {
   const PopUpShare({super.key});
@@ -44,13 +44,14 @@ class PopUpShare extends StatelessWidget {
                         text: shareImageButtonText,
                         svgIconPath: iconCamera,
                         onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) =>
-                                  const ShareScreen(shareType: 'image'),
-                            ),
-                          );
+                          Navigator.pushNamed(context, '/shareImage');
+                          // Navigator.push(
+                          //   context,
+                          //   MaterialPageRoute(
+                          //     builder: (context) =>
+                          //         const ShareScreen(shareType: 'image'),
+                          //   ),
+                          // );
                         },
                       ),
                       const SizedBox(
@@ -60,12 +61,13 @@ class PopUpShare extends StatelessWidget {
                         text: shareEventButtonText,
                         svgIconPath: iconEvent,
                         onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) =>
-                                    const ShareScreen(shareType: 'event')),
-                          );
+                          Navigator.pushNamed(context, '/shareEvent');
+                          // Navigator.push(
+                          //   context,
+                          //   MaterialPageRoute(
+                          //       builder: (context) =>
+                          //           const ShareScreen(shareType: 'event')),
+                          // );
                         },
                       ),
                     ],

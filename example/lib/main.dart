@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './screens/share_screen.dart';
 import './screens/pop_up_share.dart';
 
 void main() {
@@ -18,8 +19,13 @@ class MyApp extends StatelessWidget {
         canvasColor: Colors.white,
         useMaterial3: true,
       ),
-      home: const Directionality(
-          textDirection: TextDirection.rtl, child: PopUpShare()),
+      // home: const Directionality(
+      //     textDirection: TextDirection.rtl, child: PopUpShare()),
+      routes: {
+        '/': (context) => const PopUpShare(),
+        '/shareImage': (context) => const ShareScreen(shareType: 'image'),
+        '/shareEvent': (context) => const ShareScreen(shareType: 'event')
+      },
     );
   }
 }

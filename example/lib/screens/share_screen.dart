@@ -118,14 +118,12 @@ class _ShareScreenState extends State<ShareScreen> {
                   const SizedBox(
                     height: 32,
                   ),
-                  widget.shareType == 'image'
-                      ? secondaryButton(
-                          text: newPicButtonText,
-                          onPressed: () {
-                            setImage();
-                          })
-                      : secondaryButton(
-                          text: newPicButtonText, onPressed: () {})
+                  if (widget.shareType == 'image')
+                    secondaryButton(
+                        text: newPicButtonText,
+                        onPressed: () {
+                          setImage();
+                        })
                 ],
               ),
             ),

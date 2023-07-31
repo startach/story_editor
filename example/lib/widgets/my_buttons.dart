@@ -63,16 +63,15 @@ OutlinedButton myButton(
               fontWeight: FontWeight.w600,
             ),
           ),
-          svgIconPath != null
-              ? Padding(
-                  padding: const EdgeInsets.only(right: 10),
-                  child: SvgPicture.asset(
-                    svgIconPath,
-                    width: 24,
-                    height: 24,
-                  ),
-                )
-              : Container(),
+          if (svgIconPath != null)
+            Padding(
+              padding: const EdgeInsets.only(left: 10),
+              child: SvgPicture.asset(
+                svgIconPath,
+                width: 24,
+                height: 24,
+              ),
+            )
         ],
       ));
 }
