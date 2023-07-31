@@ -1,0 +1,16 @@
+List<Map<String, dynamic>> vectors = [
+  {'left': 6.0, 'bottom': 27.0, 'width': 8.0, 'height': 9.0},
+  {'left': 20.0, 'bottom': 45.0, 'width': 9.0, 'height': 8.0},
+  {'left': 28.0, 'bottom': 17.0, 'height': 7.0, 'width': 8.0},
+  {'left': 50.0, 'bottom': 35.0, 'height': 8.0, 'width': 8.0},
+  {'left': 67.0, 'bottom': 17.0, 'height': 6.0, 'width': 7.0},
+  {'left': 95.0, 'bottom': 10.0, 'height': 8.0, 'width': 9.0},
+  {'left': 127.0, 'bottom': 15.0, 'height': 9.0, 'width': 10.0},
+  {'left': 170.0, 'bottom': 12.0, 'height': 8.0, 'width': 9.0},
+  {'left': 215.0, 'bottom': 15.0, 'height': 6.0, 'width': 6.0},
+  {'left': 270.0, 'bottom': 15.0, 'height': 15.0, 'width': 6.0},
+  {'left': 305.0, 'bottom': 14.0, 'height': 8.0, 'width': 8.0},
+  {'left': 320.0, 'bottom': 30.0, 'height': 7.0, 'width': 8.0},
+  {'left': 327.0, 'bottom': 43.0, 'height': 9.0, 'width': 10.0},
+  {'left': 335.0, 'bottom': 15.0, 'height': 9.0, 'width': 10.0},
+];
