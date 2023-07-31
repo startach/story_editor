@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 
 import 'social_media_menu.dart';
-import 'yedidim_thanks.dart';
 
 class ShareIncidentScreen extends StatelessWidget {
-  const ShareIncidentScreen({super.key});
+  const ShareIncidentScreen(
+    this.imageWidget, {
+    super.key,
+  });
+
+  final Widget imageWidget;
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +20,7 @@ class ShareIncidentScreen extends StatelessWidget {
           children: [
             // const Row(children: [CloseButton()]),
             const SizedBox(height: 40),
-            const YedidimThanks(),
+            imageWidget,
             const SizedBox(height: 32),
             Text(
               'שיתוף באמצעות',

@@ -37,7 +37,6 @@ class ShareButton extends StatelessWidget {
         children: [
           Text(
             text,
-            textAlign: TextAlign.right,
             style: const TextStyle(
               fontSize: 15,
               fontFamily: 'Assistant',
