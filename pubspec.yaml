@@ -11,6 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  image_picker: ^1.0.1
+  material: ^1.0.0+2
 
 dev_dependencies:
   flutter_test:
